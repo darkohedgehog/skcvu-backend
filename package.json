@@ -37,5 +37,10 @@
   "strapi": {
     "uuid": "006f5edb-1495-4907-9d30-4f7214cb9c48",
     "installId": "4b79684e5ae8e7e6a155a3749de04a53722ace5b01dbf2ab624cb8a832ae0f49"
+  },
+  "overrides": {
+    "@strapi/core@5.46.0": {
+      "undici": "6.29.1"
+    }
   }
 }
